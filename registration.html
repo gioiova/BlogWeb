@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <body>
+        <header class="d-flex">
+            <div class="container d-flex"> 
+                <a href="#">
+                    <img class="logo" src="./assets/img/reddit.svg" alt="Logo of Site">
+                </a>
+                <nav class="d-flex">
+                    <div>
+                        <a href="#">Main</a>
+                        <a href="/blog-detail.html">Blog</a>
+                        <a href="#">Rules</a>
+                        <a href="#">Contact</a>
+                    </div>
+                    <div>
+                        <a href="./registration.html">Registration</a>
+                        <a href="./auth.html">Log In</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    <div class="container body-container ">
+        <div class="auth-form-container">
+            <form action="" method="get">
+                <div class="group-form">
+                    <label class="text-input-label" for="firstname">Name</label>
+                    <input class="text-input" type="text" name="firstname" id="firstname" placeholder="Enter Name">
+                </div>
+                <div class="group-form">
+                    <label class="text-input-label" for="lastname">Last  Name</label>
+                    <input class="text-input" type="text" name="lastname" id="lastname" placeholder="Enter Last Name">
+                </div>
+                <div class="group-form">
+                    <label class="text-input-label" for="userEmail">Customer E-mail</label>
+                    <input class="text-input" type="email" name="userEmail" id="userEmail" placeholder="Enter your E-mail">
+                </div>
+                <div class="group-form">
+                    <label class="text-input-label" for="birtDate">Birth date</label>
+                    <input class="text-input" type="date" name="birtDate" id="birtDate">
+                </div>
+                <div class="group-form">
+                    <label class="text-input-label" for="birtPlace">Birth Place</label>
+                    <select class="location" name="" id="">
+                        <option value="">Georgia</option>
+                        <option value="">USA</option>
+                        <option value="">Italy</option>
+                        <option value="">Spain</option>
+                    </select>
+
+                </div>
+                <div class="group-form">
+                    <div class="sex-container">
+                        <input type="radio" name="sex" id="male">
+                        <label for="sex">Male</label>
+                    </div>
+                    <div class="sex-container">
+                        <input type="radio" name="sex" id="female">
+                        <label for="sex">Female</label>
+                    </div>
+                </div>
+                <div class="group-form">
+                    <label class="text-input-label" for="pass">Password</label>
+                    <input class="text-input" type="password" name="pass" id="pass" placeholder="Enter Password" >
+                </div>
+                <div class="group-form">
+                    <label class="text-input-label" for="passReplay">Repeat Password</label>
+                    <input class="text-input" type="password" name="passReplay" id="passReplay" placeholder="Enter Password Again" >
+                </div>
+                <button class="btn btn-primary w-100 mb-15" >Registration</button>
+                <a  class="btn btn-link" href="./auth.html">Authorize</a>
+            </form>
+            
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <p>Two seasoned drug dealers where they return to the gritty streets of London, but their pursuit of money and power is threatened by a young and ruthless hustler.</p>
+        </div>
+    </footer>
+</body>
+</html

@@ -1,0 +1,38 @@
+.help-container h1{
+    margin-top: 0;
+}
+.help-container{
+    padding-top: 50px;
+}
+.acordion-container{
+    border: 1px solid #ccc;
+    border-bottom: 0;
+    margin-bottom: 30px;
+}
+.acordion-header{
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.acordion-header:hover{
+    background-color: rgba(0,0, 0, 0.1);
+}
+.acordion-header img{
+    width: 15px;
+}
+.acordion-body{
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+    display: none;
+}
+.acordion-item.active .acordion-body{
+    display: block;
+}
+.acordion-item.active .acordion-header img{
+    transform: rotate(180deg);
+}
